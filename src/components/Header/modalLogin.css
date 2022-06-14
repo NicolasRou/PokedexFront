@@ -1,0 +1,62 @@
+.containLogin {
+  border-radius: 10px;
+  margin: 0;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+.containRegister {
+  border-radius: 10px;
+  margin: 0;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+.specs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  padding: 0 7% 7% 7%;
+}
+.title > h1 {
+  color: black;
+  font-weight: 700;
+  font-size: xx-large;
+}
+.text {
+  margin: 15px;
+}
+.nameForm,
+.loadImg,
+.types,
+.movement {
+  display: flex;
+  text-align: center;
+}
+.specs label {
+  text-align: center;
+  margin-bottom: 5px;
+}
+.nameForm > input,
+.loadImg > input,
+.types > input,
+.measurements > input,
+.movement > input,
+.stats > input {
+  margin: 5px;
+  border-radius: 5px;
+  text-align: start;
+  padding: 8px;
+}
+
+.botonEnviarLogin {
+  padding: 0.7em;
+}
+
+.inputLogin {
+  width: 12vw;
+  align-self: center;
+}
+.nameForm {
+  display: flex;
+  flex-direction: column;
+}

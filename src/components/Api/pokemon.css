@@ -1,0 +1,117 @@
+.button-contain {
+  margin: 20px 50px;
+}
+.button {
+  margin: 30px;
+  border-style: solid;
+  border-radius: 7px;
+  padding: 15px;
+  font-size: large;
+}
+
+
+.display {
+  display: inline-block;
+  margin-top: 3vh;
+  height: auto;
+}
+
+.arreglo {
+  width: 73vw;
+}
+
+.allCards {
+  margin-bottom: 10%;
+}
+.search {
+  margin-bottom: 5%;
+}
+
+/* CSS botones */
+.button-29,
+.button-contain button {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(
+    100% 100% at 100% 0,
+    #5adaff 0,
+    #5468ff 100%
+  );
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, rgba(58, 65, 111, 0.5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono", monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow 0.15s, transform 0.15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow, transform;
+  font-size: 18px;
+  margin-right: 0.7vw;
+}
+
+.button-29,
+.button-contain button:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button-29:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-3px);
+}
+.button-contain button:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-3px);
+}
+
+.button-29:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+.button-contain button:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .app {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .search {
+    width: 100%;
+    
+  }
+  .search input {
+    width: 80%;
+    
+  }
+  .container-menu {
+    min-width: 230px;
+    
+  }
+}
+@media screen and (max-width: 767px) {
+  .container-menu {
+    min-width: 160px;
+  }
+}

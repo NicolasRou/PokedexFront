@@ -1,0 +1,195 @@
+.container {
+    border-radius: 16px;
+    border-style: solid;
+    border-color: green;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 16vw;
+    box-shadow: 5px 5px 5px gray;
+    background-color: white;
+}
+.container > .id,
+.container > .img {
+    padding: 0.6em;
+}
+.imgPokemon{
+    width: 60%;
+    height: 114px;
+}
+.id {
+    display: flex;
+    justify-content: flex-end;
+
+}
+.name {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+.name button::first-letter {
+    text-transform: uppercase;
+}
+.more {
+    border-radius: 10px;
+    color: white ;
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1rem;
+    border-style: none;
+    border-top: solid;
+    
+}
+.more:hover {
+    animation: pulsate 1s ease-in-out;
+}
+@keyframes pulsate {
+    0% {
+        box-shadow: 0 0 25px rgb(87, 67, 67),
+        0 0 25px rgb(87, 68, 69)
+    }}
+
+/* Colores de los pokemons por su tipo, aplicados el borde del contenedor, y al fondo del botón*/
+
+.rock {
+    border-color: #B69E31;
+}
+.rock button {
+    border-color: #B69E31;
+    background-color: #B69E31;
+}
+.ghost {
+    border-color:#70559B;
+}
+.ghost button {
+    border-color:#70559B;
+    background-color: #70559B;
+}
+.steel {
+    border-color: #B7B9D0;
+}
+.steel button {
+    border-color: #B7B9D0;
+    background-color: #B7B9D0;
+}
+
+.water {
+    border-color:#6493EB;
+}
+.water button {
+    border-color:#6493EB;
+    background-color:#6493EB;
+}
+.grass {
+    border-color:#74CB48;
+}
+.grass button {
+    border-color:#74CB48;
+    background-color: #74CB48;
+}
+
+.psychic {
+    border-color:#FB5584;
+}
+.psychic button {
+    border-color:#FB5584;
+    background-color: #FB5584;
+}
+.ice {
+    border-color:#9AD6DF;
+}
+.ice button {
+    border-color:#9AD6DF;
+    background-color: #9AD6DF;
+}
+.dark {
+    border-color:#75574C;
+}
+.dark button {
+    border-color:#75574C;
+    background-color: #75574C;
+}
+.fairy {
+    border-color:#E69EAC;
+}
+.fairy button {
+    border-color:#E69EAC;
+    background-color: #E69EAC;
+}
+.normal {
+    border-color:#AAA67F;
+}
+.normal button {
+    border-color:#AAA67F;
+    background-color: #AAA67F;
+}
+.fighting {
+    border-color:#C12239;
+}
+.fighting button {
+    border-color:#C12239;
+    background-color: #C12239
+}
+.flying {
+    border-color:#A891EC;
+}
+.flying button {
+    border-color:#A891EC;
+    background-color: #A891EC;
+}
+.poison {
+    border-color:#A43E9E;
+}
+
+.poison button {
+    border-color:#A43E9E;
+    background-color: #A43E9E;
+}
+.ground {
+    border-color:#DEC16B;
+}
+.ground button {
+    border-color:#DEC16B;
+    background-color: #DEC16B;
+}
+.bug {
+    border-color:#A7B723;
+}
+.bug button {
+    border-color:#A7B723;
+    background-color: #A7B723;
+}
+.fire {
+    border-color:#F57D31;
+}
+.fire button {
+    border-color:#F57D31;
+    background-color: #F57D31;
+}
+.electric {
+    border-color:#F9CF30;
+}
+.electric button {
+    border-color:#F9CF30;
+    background-color:#F9CF30;
+}
+.dragon  {
+    border-color:#7037FF;
+}
+.dragon button  {
+    border-color:#7037FF;
+    background-color:#7037FF;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .container {
+        
+        width: 100%;
+    }
+}
+@media screen and (max-width: 767px)  {
+    .container {
+        width: 100%;
+    }
+}

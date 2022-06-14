@@ -1,0 +1,287 @@
+.main {
+  border-radius: 10px;
+  height: 100%;
+  margin: 0;
+}
+.header-modal {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1em;
+  padding: 0.6em;
+}
+.header-modal h1::first-letter {
+  text-transform: uppercase;
+}
+.img-card {
+  padding: 0.6em;
+}
+.img-card img {
+  width: 50%;
+  height: 180px;
+  position: fixed;
+  z-index: 1;
+  left: 30%;
+  top: 10%;
+}
+.container_bottom {
+  border-style: none;
+  border-radius: 10px;
+  position: relative;
+  margin: 25% 0.5em 0em 0.5em;
+  padding-top: 20%;
+  background-color: white;
+}
+.about {
+  padding: 0.6em;
+}
+.infoPokemon {
+  padding: 5px;
+}
+.body {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 10%;
+  align-items: flex-end;
+}
+.weight,
+.height {
+  border-right-style: solid;
+  border-width: 1px;
+  width: 33.3%;
+}
+.weight div {
+  display: flex;
+  margin: 10% 20%;
+}
+.weight div img {
+  margin: 6%;
+}
+.height div {
+  display: flex;
+  margin: 10% 20%;
+}
+.height div img {
+  margin: 6%;
+}
+.moves {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.types h4 {
+  display: flex;
+  gap: 20px;
+}
+.types h4 p {
+  border-radius: 50px;
+  padding: 5px;
+  border-style: solid;
+  border-width: 1px;
+}
+.types h4 p::first-letter {
+  text-transform: uppercase;
+}
+.moves p::first-letter {
+  text-transform: uppercase;
+}
+h1,
+h3,
+h4 > p {
+  color: white;
+}
+.text-description {
+  margin: 1em;
+}
+
+/* Barras de pogreso en las caracteristicas */
+.base-stats {
+    padding-bottom: 10px;
+}
+.stats {
+  margin: 5px;
+}
+.stats__item {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-start;
+}
+.stats_value {
+  width: 26px;
+}
+.stats__item .stats-name {
+  border-right-style: solid;
+  border-width: 1px;
+  width: 15%;
+}
+.stats__bar {
+  border-radius: 50px;
+  margin: 5px 0px;
+  width: auto;
+}
+
+/* Colores segun tipo de pokemon */
+
+.cardrock,
+.types_p {
+  background-color: #b69e31;
+}
+
+.cardghost,
+.types_p {
+  background-color: #70559b;
+}
+
+.cardsteel,
+.types_p {
+  background-color: #b7b9d0;
+}
+
+.cardwater,
+.types_p {
+  background-color: #6493eb;
+}
+
+.cardgrass,
+.types_p {
+  background-color: #74cb48;
+}
+
+.cardpsychic,
+.types_p {
+  background-color: #fb5584;
+}
+
+.cardice,
+.types_p {
+  background-color: #9ad6df;
+}
+
+.carddark,
+.types_p {
+  background-color: #75574c;
+}
+
+.cardfairy,
+.types_p {
+  background-color: #e69eac;
+}
+
+.cardnormal,
+.types_p {
+  background-color: #aaa67f;
+}
+
+.cardfighting,
+.types_p {
+  background-color: #c12239;
+}
+
+.cardflying,
+.types_p {
+  background-color: #a891ec;
+}
+
+.cardpoison,
+.types_p {
+  background-color: #a43e9e;
+}
+
+.cardground,
+.types_p {
+  background-color: #dec16b;
+}
+
+.cardbug,
+.types_p {
+  background-color: #a7b723;
+}
+
+.cardfire,
+.types_p {
+  background-color: #f57d31;
+}
+
+.cardelectric,
+.types_p {
+  background-color: #f9cf30;
+}
+
+.carddragon,
+.types_p {
+  background-color: #7037ff;
+}
+
+/* color types */
+
+.p_rock {
+  color: #b69e31;
+}
+
+.p_ghost {
+  color: #70559b;
+}
+
+.p_steel {
+  color: #b7b9d0;
+}
+
+.p_water {
+  color: #6493eb;
+}
+
+.p_grass {
+  color: #74cb48;
+}
+
+.p_psychic {
+  color: #fb5584;
+}
+
+.p_ice {
+  color: #9ad6df;
+}
+
+.p_dark {
+  color: #75574c;
+}
+
+.p_fairy {
+  color: #e69eac;
+}
+
+.p_normal {
+  color: #aaa67f;
+}
+
+.p_fighting {
+  color: #c12239;
+}
+
+.p_flying {
+  color: #a891ec;
+}
+
+.p_poison {
+  color: #a43e9e;
+}
+
+.p_ground {
+  color: #dec16b;
+}
+
+.p_bug {
+  color: #a7b723;
+}
+
+.p_fire {
+  color: #f57d31;
+}
+
+.p_electric {
+  color: #f9cf30;
+}
+
+.p_dragon {
+  color: #7037ff;
+}

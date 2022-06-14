@@ -1,0 +1,72 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+
+.modal-main {
+  position: fixed;
+  width: 23%;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  border-radius: 10px;
+  transform: translate(-50%, -50%);
+}
+.modal-add {
+  position: fixed;
+  width: 30%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  border-radius: 10px;
+  transform: translate(-50%, -50%);
+  overflow-y: auto;
+}
+
+.display-block {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}
+.close {
+  float: left;
+  border-style: none;
+  border-radius: 8px;
+  margin: 1em;
+}
+.close:hover {
+  animation: pulsate 1s ease-in-out;
+}
+@keyframes pulsate {
+  0% {
+    box-shadow: 0 0 25px rgb(87, 67, 67), 0 0 25px rgb(87, 68, 69);
+  }
+}
+
+@media screen and (min-width: 1124px) and (max-width: 1400px) {
+  .modal-main {
+    width: 30%;
+  }
+}
+@media screen and (min-width: 860px) and (max-width: 1124px) {
+  .modal-main {
+    width: 40%;
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 860px) {
+  .modal-main {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .modal-main {
+    width: 60%;
+  }
+}

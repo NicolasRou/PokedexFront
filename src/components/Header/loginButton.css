@@ -1,0 +1,19 @@
+.buttonAdd {
+  background-color: #666666;
+  border-color: #666666;
+  border-style: none;
+}
+
+.imgAdd {
+  margin: 10px 0;
+}
+.name {
+  display: flex;
+  flex-direction: row;
+}
+
+.loginContainer {
+  border-style: none;
+  margin: auto;
+  display: inline-block;
+}

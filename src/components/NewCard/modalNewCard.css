@@ -1,0 +1,49 @@
+.contain {
+  border-radius: 10px;
+  margin: 0;
+  background-color: rgb(255, 255, 255);
+  margin: 0;
+}
+.specs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  padding: 0 7% 7% 7%;
+  
+}
+.title > h1 {
+  color: black;
+  font-weight: 700;
+  font-size: xx-large;
+}
+.text {
+  margin: 15px;
+}
+.name,
+.loadImg,
+.types,
+.measurements,
+.movement,
+.stats,
+.info {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+.specs label {
+  text-align: start;
+  margin-bottom: 5px;
+}
+.name > input,
+.loadImg > input,
+.types > input,
+.measurements > input,
+.movement > input,
+.stats > input,
+.info > input {
+  margin: 3px;
+  border-radius: 5px;
+  text-align: start;
+  padding: 8px;
+}
